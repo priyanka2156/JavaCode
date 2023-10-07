@@ -1,0 +1,20 @@
+package Learn.Practice1;
+
+import java.util.Scanner;
+
+public class VowelOrConst {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the  alphabet to  check whether it is vowel or consonant:");
+        char ch = sc.next().charAt(0);
+
+        if (ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U' || ch == 'a' || ch == 'e' || ch == 'i'
+                || ch == 'o' || ch == 'u') {
+
+            System.out.println("The alphabet is Vowel");
+        } else {
+            System.out.println("The alphabet is Consonant ");
+        }
+
+    }
+}
