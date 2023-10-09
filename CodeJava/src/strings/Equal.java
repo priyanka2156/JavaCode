@@ -6,6 +6,6 @@ public class Equal {
         String s2 = "hello";
 
         String s3 = new String("hello");
-        System.err.println(s1.equals(s2));
+        System.out.println(s1.equals(s2));
     }
 }

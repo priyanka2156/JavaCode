@@ -1,7 +1,7 @@
 package strings;
 
 public class PrintAllSubStr {
-    public static void main(String[] arg s) {
+    public static void main(String[] args) {
         String str = "abcd";
         for (int i = 0; i <= 3; i++) {
             for (int j = i + 1; j <= 4; j++) {
